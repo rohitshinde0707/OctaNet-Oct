@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+}
+.content{
+    height: 350px;
+    width: 450px;
+    background-color: beige;
+
+}
+
+ul{
+    list-style: none;
+}
+input{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.488);
+
+}
+#add-btn{
+    padding: 5px 10px;
+    border:none;
+    outline: 1px solid rgba(0, 0, 0, 0.466);
+    margin: 5px;
+    color: green;
+}
+#add-btn:hover{
+    background-color: rgba(255, 228, 196, 0.729);
+}
+.del-btn{
+    padding: 3px 5px;
+    border:none;
+    outline: 1px solid rgba(255, 0, 0, 0.466);
+    margin: 5px;
+    color: red;
+}
+.edit-btn{
+    padding: 5px 5px;
+    border:none;
+    outline: 1px solid rgba(0, 0, 0, 0.466);
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
