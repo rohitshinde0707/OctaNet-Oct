@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url('/Task01/mesh-582.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#nav{
+    height: 90px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 30px;
+    margin-right: 180px;
+}
+#nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-part-1 h4{
+    margin-right: 60px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+#nav-part-1 h4:hover{
+    color: #D5E8F2;
+}
+#nav-part-2 i:hover{
+    color: #D5E8F2;
+}
+#nav-part-2 i{
+    margin-right: 60px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 500;
+}
+#content{
+    width: 100%;
+    height: calc(100% - 90px);
+    position: relative;
+    display: flex;
+}
+
+#content #left{
+    width: 35%;
+    height: 100%;
+    padding: 60px 110px;
+}
+#left h5{
+    font-size: 17px;
+    color: #313131;
+    margin-bottom: 20px;
+   
+}
+#left h1{
+    font-size: 48px; 
+    font-weight: 500;
+    margin-bottom: 30px;
+    /* background-image: url(/Level-01/Task-01/mesh-582.png);
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+#left button{
+    background-image: url('/Task01/mesh-582.png');
+    color: #313131;
+    background-position: left;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    transition: all 0.4s linear;
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+}
+#left button:hover{
+    background-position: bottom;
+}
+#left p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 23px;
+    color: #313131;
+    width: 70%;
+}
+#content #right{
+    width: 65%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 110px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+.ele{
+    height: 440px;
+    width: 290px;
+    background-color: transparent;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0 , 0, 0.3);
+    display: inline-block;
+    margin-right: 20px;
+}
+.ele img{
+    mix-blend-mode: multiply;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    top: 7%;
+}
+.ele h4{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0;
+    right: 0;
+    /* background-color: #9DB6C3; */
+    background-image: url('/Task01/mesh-582.png');
+    padding: 5px 10px;
+    background-position: left;
+    border-radius: 6px;
+    margin: 0;
+}
+
+
+.ele h5{
+    position: absolute;
+    bottom: 7%;
+    right: 0;
+    background-image: url('/Task01/mesh-582.png');
+    color: #d1d1d1;
+    background-position: left;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 12px;
+    border-radius: 6px;
+}
